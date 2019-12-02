@@ -1,0 +1,6 @@
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaFFT\bin\x64\Release\CudaFFT.XML
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaFFT\bin\x64\Release\CudaFFT.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaFFT\bin\x64\Release\CudaFFT.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaFFT\obj\x64\Release\CudaFFT.csprojAssemblyReference.cache
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaFFT\obj\x64\Release\CudaFFT.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaFFT\obj\x64\Release\CudaFFT.pdb

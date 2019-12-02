@@ -1,0 +1,6 @@
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaRand\bin\x64\Release\CudaRand.XML
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaRand\bin\x64\Release\CudaRand.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaRand\bin\x64\Release\CudaRand.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaRand\obj\x64\Release\CudaRand.csprojAssemblyReference.cache
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaRand\obj\x64\Release\CudaRand.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaRand\obj\x64\Release\CudaRand.pdb

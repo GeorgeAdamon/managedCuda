@@ -1,0 +1,10 @@
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVRTC\bin\x64\Release\NVRTC.XML
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVRTC\bin\x64\Release\NVRTC.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVRTC\bin\x64\Release\NVRTC.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVRTC\bin\x64\Release\ManagedCuda.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVRTC\bin\x64\Release\ManagedCuda.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVRTC\bin\x64\Release\ManagedCuda.xml
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVRTC\obj\x64\Release\NVRTC.csprojAssemblyReference.cache
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVRTC\obj\x64\Release\NVRTC.csproj.CopyComplete
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVRTC\obj\x64\Release\NVRTC.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVRTC\obj\x64\Release\NVRTC.pdb

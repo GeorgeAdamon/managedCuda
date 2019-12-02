@@ -1,0 +1,6 @@
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaBlas\bin\x64\Release\CudaBlas.XML
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaBlas\bin\x64\Release\CudaBlas.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaBlas\bin\x64\Release\CudaBlas.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaBlas\obj\x64\Release\CudaBlas.csprojAssemblyReference.cache
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaBlas\obj\x64\Release\CudaBlas.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaBlas\obj\x64\Release\CudaBlas.pdb

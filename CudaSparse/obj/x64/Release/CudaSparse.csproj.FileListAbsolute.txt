@@ -1,0 +1,5 @@
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSparse\bin\x64\Release\CudaSparse.XML
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSparse\bin\x64\Release\CudaSparse.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSparse\bin\x64\Release\CudaSparse.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSparse\obj\x64\Release\CudaSparse.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSparse\obj\x64\Release\CudaSparse.pdb

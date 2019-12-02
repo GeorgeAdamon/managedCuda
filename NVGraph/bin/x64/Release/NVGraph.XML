@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NVGraph</name>
+    </assembly>
+    <members>
+        <member name="M:ManagedCuda.NVGraph.GraphContext.#ctor">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.GraphContext.Finalize">
+            <summary>
+            For dispose
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.GraphContext.Dispose">
+            <summary>
+            Dispose
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.GraphContext.Dispose(System.Boolean)">
+            <summary>
+            For IDisposable
+            </summary>
+            <param name="fDisposing"></param>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.GraphDescriptor.#ctor(ManagedCuda.NVGraph.nvgraphContext)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.GraphDescriptor.Finalize">
+            <summary>
+            For dispose
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.GraphDescriptor.Dispose">
+            <summary>
+            Dispose
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.GraphDescriptor.Dispose(System.Boolean)">
+            <summary>
+            For IDisposable
+            </summary>
+            <param name="fDisposing"></param>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.NVGraphException">
+            <summary>
+            A NVGraph exception is thrown if a NVGraph API method call does not return <see cref="!:nvgraphContext.Success"/>
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphException.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            
+            </summary>
+            <param name="serInfo"></param>
+            <param name="streamingContext"></param>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphException.#ctor(ManagedCuda.NVGraph.nvgraphStatus)">
+            <summary>
+            
+            </summary>
+            <param name="error"></param>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphException.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphException.#ctor(System.String,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphException.#ctor(ManagedCuda.NVGraph.nvgraphStatus,System.String,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="error"></param>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphException.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            
+            </summary>
+            <param name="info"></param>
+            <param name="context"></param>
+        </member>
+        <member name="P:ManagedCuda.NVGraph.NVGraphException.NVgraphStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ManagedCuda.NVGraph.NVGraphException.InternalErrorName">
+            <summary>
+            Error name as returned by NVGraph API
+            </summary>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.NVGraphNativeMathods">
+            <summary>
+            C# wrapper for nvgraph.h
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphStatusGetString(ManagedCuda.NVGraph.nvgraphStatus)">
+            <summary/>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphCreate(ManagedCuda.NVGraph.nvgraphContext@)">
+            <summary>
+            Open the library and create the handle
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphDestroy(ManagedCuda.NVGraph.nvgraphContext)">
+            <summary>
+            Close the library and destroy the handle
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphCreateGraphDescr(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr@)">
+            <summary>
+            Create an empty graph descriptor
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphDestroyGraphDescr(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr)">
+            <summary>
+            Destroy a graph descriptor
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphSetGraphStructure(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.NVGraph.nvgraphTopologyBase,ManagedCuda.NVGraph.nvgraphTopologyType)">
+            <summary>
+            Set size, topology data in the graph descriptor
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphGetGraphStructure(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.NVGraph.nvgraphTopologyBase,ManagedCuda.NVGraph.nvgraphTopologyType@)">
+            <summary>
+            Query size and topology information from the graph descriptor
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphAllocateVertexData(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.BasicTypes.SizeT,ManagedCuda.BasicTypes.cudaDataType[])">
+            <summary>
+            Allocate numsets vectors of size V reprensenting Vertex Data and attached them the graph. 
+            settypes[i] is the type of vector #i, currently all Vertex and Edge data should have the same type
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphAllocateEdgeData(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.BasicTypes.SizeT,ManagedCuda.BasicTypes.cudaDataType[])">
+            <summary>
+            Allocate numsets vectors of size E reprensenting Edge Data and attached them the graph. 
+            settypes[i] is the type of vector #i, currently all Vertex and Edge data should have the same type
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphSetVertexData(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,System.IntPtr,ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            Update the vertex set #setnum with the data in *vertexData, sets have 0-based index
+            Conversions are not sopported so nvgraphTopologyType_t should match the graph structure
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphSetVertexData(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.BasicTypes.CUdeviceptr,ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            Update the vertex set #setnum with the data in *vertexData, sets have 0-based index
+            Conversions are not sopported so nvgraphTopologyType_t should match the graph structure
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphGetVertexData(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,System.IntPtr,ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            Copy the edge set #setnum in *edgeData, sets have 0-based index
+            Conversions are not sopported so nvgraphTopologyType_t should match the graph structure
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphGetVertexData(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.BasicTypes.CUdeviceptr,ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            Copy the edge set #setnum in *edgeData, sets have 0-based index
+            Conversions are not sopported so nvgraphTopologyType_t should match the graph structure
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphConvertTopology(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphTopologyType,ManagedCuda.NVGraph.nvgraphTopologyBase,ManagedCuda.BasicTypes.CUdeviceptr,ManagedCuda.BasicTypes.cudaDataType@,ManagedCuda.NVGraph.nvgraphTopologyType,ManagedCuda.NVGraph.nvgraphTopologyBase,ManagedCuda.BasicTypes.CUdeviceptr)">
+            <summary>
+            Convert the edge data to another topology
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphConvertGraph(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.NVGraph.nvgraphTopologyType)">
+            <summary>
+            Convert graph to another structure
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphSetEdgeData(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,System.IntPtr,ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            Update the edge set #setnum with the data in *edgeData, sets have 0-based index
+            Conversions are not sopported so nvgraphTopologyType_t should match the graph structure
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphSetEdgeData(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.BasicTypes.CUdeviceptr,ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            Update the edge set #setnum with the data in *edgeData, sets have 0-based index
+            Conversions are not sopported so nvgraphTopologyType_t should match the graph structure
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphGetEdgeData(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,System.IntPtr,ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            Copy the edge set #setnum in *edgeData, sets have 0-based index
+            Conversions are not sopported so nvgraphTopologyType_t should match the graph structure */
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphGetEdgeData(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.BasicTypes.CUdeviceptr,ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            Copy the edge set #setnum in *edgeData, sets have 0-based index
+            Conversions are not sopported so nvgraphTopologyType_t should match the graph structure */
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphExtractSubgraphByVertex(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.NVGraph.nvgraphGraphDescr,System.Int32[],ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            create a new graph by extracting a subgraph given a list of vertices
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphExtractSubgraphByEdge(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.NVGraph.nvgraphGraphDescr,System.Int32[],ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            create a new graph by extracting a subgraph given a list of edges
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphSrSpmv(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.BasicTypes.SizeT,System.IntPtr,ManagedCuda.BasicTypes.SizeT,System.IntPtr,ManagedCuda.BasicTypes.SizeT,ManagedCuda.NVGraph.nvgraphSemiring)">
+            <summary>
+            nvGRAPH Semi-ring sparse matrix vector multiplication
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphSssp(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.BasicTypes.SizeT,System.Int32@,ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            nvGRAPH Single Source Shortest Path (SSSP)
+            Calculate the shortest path distance from a single vertex in the graph to all other vertices.
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphWidestPath(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.BasicTypes.SizeT,System.Int32@,ManagedCuda.BasicTypes.SizeT)">
+            <summary>
+            nvGRAPH WidestPath 
+            Find widest path potential from source_index to every other vertices.
+            </summary>
+        </member>
+        <member name="M:ManagedCuda.NVGraph.NVGraphNativeMathods.nvgraphPagerank(ManagedCuda.NVGraph.nvgraphContext,ManagedCuda.NVGraph.nvgraphGraphDescr,ManagedCuda.BasicTypes.SizeT,System.IntPtr,ManagedCuda.BasicTypes.SizeT,System.Int32,ManagedCuda.BasicTypes.SizeT,System.Single,System.Int32)">
+            <summary>
+            nvGRAPH PageRank
+            Find PageRank for each vertex of a graph with a given transition probabilities, a bookmark vector of dangling vertices, and the damping factor.
+            </summary>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.nvgraphStatus">
+            <summary>
+            nvGRAPH status type returns
+            </summary>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.nvgraphSemiring">
+            <summary>
+            Semi-ring types
+            </summary>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.nvgraphTopologyType">
+            <summary>
+            Topology types
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphTag.Default">
+            <summary>
+            Default is unsorted.
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphTag.Unsorted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphTag.SortedBySource">
+            <summary>
+            CSR
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphTag.SortedByDestination">
+            <summary>
+            CSC 
+            </summary>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.nvgraphContext">
+            <summary>
+            Opaque structure holding nvGRAPH library context
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphContext.Handle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.nvgraphGraphDescr">
+            <summary>
+            Opaque structure holding the graph descriptor
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphGraphDescr.Handle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.nvgraphTopologyBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.nvgraphCSRTopology32I">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCSRTopology32I.nvertices">
+            <summary>
+            n+1
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCSRTopology32I.nedges">
+            <summary>
+            nnz
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCSRTopology32I.source_offsets">
+            <summary>
+            rowPtr
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCSRTopology32I.destination_indices">
+            <summary>
+            colInd
+            </summary>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.nvgraphCSCTopology32I">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCSCTopology32I.nvertices">
+            <summary>
+            n+1
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCSCTopology32I.nedges">
+            <summary>
+            nnz
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCSCTopology32I.destination_offsets">
+            <summary>
+            colPtr
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCSCTopology32I.source_indices">
+            <summary>
+            rowInd
+            </summary>
+        </member>
+        <member name="T:ManagedCuda.NVGraph.nvgraphCOOTopology32I">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCOOTopology32I.nvertices">
+            <summary>
+            n+1
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCOOTopology32I.nedges">
+            <summary>
+            nnz
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCOOTopology32I.destination_offsets">
+            <summary>
+            rowInd
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCOOTopology32I.source_indices">
+            <summary>
+            colInd
+            </summary>
+        </member>
+        <member name="F:ManagedCuda.NVGraph.nvgraphCOOTopology32I.tag">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

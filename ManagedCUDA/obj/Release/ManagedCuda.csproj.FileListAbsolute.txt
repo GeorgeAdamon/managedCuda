@@ -1,0 +1,6 @@
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\ManagedCUDA\bin\Release\ManagedCuda.xml
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\ManagedCUDA\bin\Release\ManagedCuda.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\ManagedCUDA\bin\Release\ManagedCuda.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\ManagedCUDA\obj\Release\ManagedCuda.csprojAssemblyReference.cache
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\ManagedCUDA\obj\Release\ManagedCuda.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\ManagedCUDA\obj\Release\ManagedCuda.pdb

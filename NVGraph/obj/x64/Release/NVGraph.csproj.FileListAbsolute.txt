@@ -1,0 +1,10 @@
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVGraph\bin\x64\Release\NVGraph.XML
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVGraph\bin\x64\Release\NVGraph.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVGraph\bin\x64\Release\NVGraph.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVGraph\bin\x64\Release\ManagedCuda.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVGraph\bin\x64\Release\ManagedCuda.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVGraph\bin\x64\Release\ManagedCuda.xml
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVGraph\obj\x64\Release\NVGraph.csprojAssemblyReference.cache
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVGraph\obj\x64\Release\NVGraph.csproj.CopyComplete
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVGraph\obj\x64\Release\NVGraph.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NVGraph\obj\x64\Release\NVGraph.pdb

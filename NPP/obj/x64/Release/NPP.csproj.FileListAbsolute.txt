@@ -1,0 +1,6 @@
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NPP\bin\x64\Release\NPP.XML
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NPP\bin\x64\Release\NPP.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NPP\bin\x64\Release\NPP.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NPP\obj\x64\Release\NPP.csprojAssemblyReference.cache
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NPP\obj\x64\Release\NPP.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\NPP\obj\x64\Release\NPP.pdb

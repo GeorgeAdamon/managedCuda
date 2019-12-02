@@ -1,0 +1,4 @@
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\Nvml\bin\Release\ManagedNvml.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\Nvml\bin\Release\ManagedNvml.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\Nvml\obj\Release\ManagedNvml.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\Nvml\obj\Release\ManagedNvml.pdb

@@ -1,0 +1,16 @@
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\CudaSolve.XML
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\CudaSolve.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\CudaSolve.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\CudaBlas.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\CudaSparse.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\ManagedCuda.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\CudaBlas.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\CudaBlas.xml
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\CudaSparse.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\CudaSparse.xml
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\ManagedCuda.pdb
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\bin\x64\Release\ManagedCuda.xml
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\obj\x64\Release\CudaSolve.csprojAssemblyReference.cache
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\obj\x64\Release\CudaSolve.csproj.CopyComplete
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\obj\x64\Release\CudaSolve.dll
+C:\Users\GeorgeAdamon\Documents\GitHub\managedCuda\CudaSolve\obj\x64\Release\CudaSolve.pdb
